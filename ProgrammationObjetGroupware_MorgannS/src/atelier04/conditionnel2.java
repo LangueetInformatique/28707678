@@ -3,7 +3,7 @@ package atelier04;
 public class conditionnel2 {
 
 	public static void main(String[] args) {
-		int p1 = 10, p2 = -1, p3 = 9, p4 = 4;
+		int p1 = 10, p2 = -1, p3 = 9;
 
 		minimum(p1, p2, p3);
 		minimum(p1, p3, p2);
