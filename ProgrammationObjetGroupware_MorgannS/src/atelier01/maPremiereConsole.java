@@ -1,4 +1,4 @@
-package tp01;
+package atelier01;
 
 import util.Console;
 public class maPremiereConsole {

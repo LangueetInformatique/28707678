@@ -1,4 +1,4 @@
-package tp01;
+package atelier02;
 /** classe exécutable de la 2ème partie de l'atelier 2
  * 
  * @author Morgann

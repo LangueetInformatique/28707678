@@ -1,4 +1,4 @@
-package tp01;
+package atelier01;
 
 public class simpleProgram2 {
 

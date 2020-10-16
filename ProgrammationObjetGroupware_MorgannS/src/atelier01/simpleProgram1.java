@@ -1,4 +1,4 @@
-package tp01;
+package atelier01;
 
 /** classe exécutable de l'atelier 1
  * 

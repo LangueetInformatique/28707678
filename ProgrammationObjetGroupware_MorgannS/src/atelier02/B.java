@@ -1,4 +1,4 @@
-package tp01;
+package atelier02;
 
 import atelier02.A;
 
