@@ -4,7 +4,7 @@ public class conditionnel3 {
 
 	public static void main(String[] args) {
 
-		int p1 = 10, p2 = -1, p3 = 9, p4 = 4, p5 = 8;
+		int p1 = 10, p2 = -1, p3 = 9, p4 = 4;
 
 		mediane(p1, p2, p3);
 		mediane(p1, p3, p2);
