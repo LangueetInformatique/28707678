@@ -2,9 +2,9 @@ package atelier05;
 
 public class ex2_etudiant {
 	
-	String nom, prenom;
-	int numEtud;
-	String univ; 
+	private String nom, prenom;
+	private int numEtud;
+	private String univ; 
 	
 	/** 
 	 * Constructeur vide 
