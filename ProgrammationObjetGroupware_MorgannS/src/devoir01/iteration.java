@@ -38,8 +38,8 @@ public class iteration {
 				imin = i;
 			}
 		}
-		System.out.println(prenoms[imin]); 	// Premier prénom ordre lexicographique
-		System.out.println(imin);			// Son indice
+		System.out.println("Le prénom " + prenoms[imin]); 							// Premier prénom ordre lexicographique
+		System.out.println("est à la position numéro " + imin + " de la liste");			// Son indice
 	}
 }
 
