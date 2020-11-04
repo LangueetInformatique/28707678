@@ -1,31 +1,45 @@
 package atelier04;
-import java.util.Collections;
-import java.util.ArrayList;
-import java.util.List;
 
 public class conditionnel3 {
 
 	public static void main(String[] args) {
 
-		int p1 = 10, p2 = 9, p3 = -1, p4 = 4, p5 = 8;
-		int p6;
-		
-		List<Integer> NbList = new ArrayList<Integer>(); // créer une liste avec les 5 valeurs
+		int p1 = 10, p2 = -1, p3 = 9, p4 = 4, p5 = 8;
 
-        NbList.add(p1);       
-        NbList.add(p2);
-        NbList.add(p3);
-        NbList.add(p4);
-        NbList.add(p5);
-        
-        System.out.println(NbList); // Liste désordonnée
-        Collections.sort(NbList);	// Méthode importée de util qui classe par ordre croissant
-        System.out.println(NbList); // Liste ordonnée
-        
-        p6 = NbList.get(2); // On associe la valeur du milieu de la liste à p6
-        
-        
-        System.out.println(p6);
+		mediane(p1, p2, p3);
+		mediane(p1, p3, p2);
+		mediane(p2, p1, p3);
+		mediane(p2, p3, p1);
+		mediane(p3, p1, p2);
+		mediane(p3, p2, p1);
+	}
+
+	public static int mediane(int p1, int p2, int p3) {
+		int p4;
+
+		if (p1 > p2) {
+			if (p3 > p1)
+				p4 = p1;
+			else {
+				if (p3 > p2)
+					p4 = p3;
+				else
+					p4 = p2;
+			}
+		} else {
+			if (p3 > p2)
+				p4 = p2;
+			else {
+				if (p3 > p1)
+					p4 = p3;
+				else
+					p4 = p1;
+			}
+		}
+
+		System.out.print(p4);
+
+		return p4;
 	}
 
 }
