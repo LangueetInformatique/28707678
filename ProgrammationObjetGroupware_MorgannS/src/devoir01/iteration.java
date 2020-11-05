@@ -19,7 +19,7 @@ public class iteration {
 		 * cette classe permet d'obtenir l'indice du premier prénom dans l'ordre lexicographique
 		 * 
 		 */
-		String[] prenoms = {"Christian", "Karen",  "Victoria", "Agatha", "Philippe", "Djamé", "Aaaaa"};
+		String[] prenoms = {"Christian", "Karen",  "Victoria", "Agatha", "Philippe", "Djamé"};
 		int imin = 0;
 		int i, longueur;
 		System.out.println(prenoms[0].compareTo(prenoms[2]));
