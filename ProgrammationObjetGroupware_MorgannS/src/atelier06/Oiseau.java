@@ -12,9 +12,9 @@ public class Oiseau extends Animal{
 		type = "Oiseau";
 	}
 
-	public void présente() {
+	public void présente(){
 		// Appel de la méthode de la surclasse
-		// ...............
+		super.présente();
 		String etat = (domestique) ? "domestique" : "sauvage ou domestique";
 		System.out.println("Je suis vraiment un animal " + etat);
 	}

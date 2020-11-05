@@ -15,7 +15,7 @@ public class Félin extends Animal{
 
 	public void présente() {
 		// Appel de la méthode de la surclasse
-		// ...............
+		super.présente();
 		String etat = (domestique) ? "domestique" : "sauvage";
 		System.out.println("Je suis vraiment un animal " + etat);
 	}
