@@ -27,8 +27,9 @@ public class iteration {
 		//
 		// Je dois vérifier si prenoms[0].compareTo(prenoms[1]) > 0
 		// Mon prénom le premier dans l'ordre lexicographique : "Agatha" soit prenoms[3]
+		int longueur = prenoms.length;
 		
-		for (i=0; i < 5; i++) 
+		for (i=0; i < longueur-1; i++) 
 		{
 			//System.out.println(prenoms[i].compareTo(prenoms[i+1]));
 			int result = prenoms[i].compareTo(prenoms[i+1]);
@@ -36,6 +37,8 @@ public class iteration {
 			if (result < 0)
 			{	
 				imin = i;
+			} else {
+				imin = i+1;
 			}
 		}
 		System.out.println("Le prénom " + prenoms[imin]); 							// Premier prénom ordre lexicographique
