@@ -22,14 +22,12 @@ public class Etudiant extends Promotion{
 
 	@Override
 	public void travailler() {
-		// TODO Auto-generated method stub
+		System.out.println("J'apprends le java");
 		
 	}
 
 	@Override
 	public void allerExams() {
-		// TODO Auto-generated method stub
-		
 	}
 	
 }
