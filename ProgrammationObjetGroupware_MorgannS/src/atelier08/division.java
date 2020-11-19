@@ -5,6 +5,7 @@ public class division {
 	public static void main (String[] args) {
 		
 			int i = 1000, j;
+			
 		try {
 			do 
 			{
@@ -14,7 +15,8 @@ public class division {
 		} catch (Exception e) 
 	{
 			System.out.println("Il y a eu une erreur !");
+			System.out.println(e.getMessage());
 		} 
 	}
 }
-// Exception : Division par zéro 
+// Exception arithmétique : Division par zéro 
