@@ -30,8 +30,4 @@ public class Elfe extends Joueur{
 		
 	}
 	
-	public int niveau() {
-		return this.niveau;
-	}
-	
 }
