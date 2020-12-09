@@ -6,7 +6,7 @@ public class Elfe extends Joueur{
 	protected boolean raceMéchante = true; 
 
 	public Elfe(String nom, int niveau) {
-		super(nom, 5);
+		super(nom, niveau);
 		}
 	//public Elfe(String nom) {
 
@@ -30,4 +30,5 @@ public class Elfe extends Joueur{
 		
 	}
 	
+
 }

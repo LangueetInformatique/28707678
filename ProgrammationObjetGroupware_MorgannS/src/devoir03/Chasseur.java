@@ -22,6 +22,5 @@ public class Chasseur extends Archer implements Ressources {
 	public String nom() {
 		return this.nom;
 	}
-
-
+	
 }

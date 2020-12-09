@@ -7,7 +7,7 @@ package devoir03;
 public abstract class Joueur {
 
 	public String nom;
-	public int niveau = 0;
+	public int niveau;
 	
 	/** Création d'une nouvelle instance de la classe Joueur
 	 * elle présentera le joueur avec son nom et son niveau
@@ -30,5 +30,7 @@ public abstract class Joueur {
 	
 	/** Langue parlée */
 	public abstract void langue();
+
+
 }
 	
