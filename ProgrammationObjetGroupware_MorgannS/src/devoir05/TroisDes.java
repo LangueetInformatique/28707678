@@ -5,7 +5,7 @@ package devoir05;
  * @author tyratron
  *
  */
-public class TroisDes {
+public class TroisDes throws E421 {
 	int d1_, d2_, d3_;
 
 	public TroisDes(int d1, int d2, int d3) {
